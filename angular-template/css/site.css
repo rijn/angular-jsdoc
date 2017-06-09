@@ -409,3 +409,11 @@ input[type=week] {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
+
+.tag {
+    color: #fff;
+    background: #0095dd;
+    padding: 0 5px;
+    border-radius: 3px;
+    display: inline-block;
+}

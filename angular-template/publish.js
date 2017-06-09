@@ -1,4 +1,4 @@
-/*global env: true */
+/* global env: true */
 'use strict';
 
 var fs = require('jsdoc/fs');
@@ -290,6 +290,7 @@ exports.publish = function(data, opts, tutorials) {
   };
   classes.forEach(function(doclet) {
     var module = doclet.memberof || defaultModuleName;
+    if (!module) { return; }
     var group = doclet.ngdoc || 'undefined';
     nav.module[module] = nav.module[module] || {};
     nav.module[module][group] = nav.module[module][group] || {};

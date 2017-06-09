@@ -11,6 +11,15 @@ exports.defineTags = function(dictionary) {
     }
   });
 
+  dictionary.defineTag('prototype', {
+    mustHaveValue: false,
+    canHaveType: false,
+    canHaveName: false,
+    onTagged: function(doclet, tag) {
+      doclet.prototype = true;
+    }
+  });
+
   dictionary.defineTag('attribute', {
     mustHaveValue: true,
     canHaveType: true,
