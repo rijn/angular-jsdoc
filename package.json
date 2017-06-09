@@ -1,6 +1,6 @@
 {
   "name": "angular-jsdoc",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "JsDoc Plugin and Template for AngularJs",
   "main": "index.js",
   "repository": {
@@ -11,16 +11,9 @@
     "test": "./test.sh"
   },
   "author": {
-    "name": "Allen Kim",
-    "email": "allenhwkim@gmail.com"
+    "name": "Rijn Bian",
+    "email": "bxbian951122@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Florian Zemke",
-      "email": "flzemke@gmail.com",
-      "url": "http://github.com/Zemke"
-    }
-  ],
   "license": "MIT",
   "dependencies": {
     "angular-template": "^2.0.7",
